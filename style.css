@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background: #fff7f0;
+    color: #333;
+}
+
+/* NAVBAR */
+header {
+    background: #4b2c20;
+    padding: 15px 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 26px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffcf87;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 90vh;
+    background: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #ffcf87;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* MENU SECTION */
+.menu {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-card {
+    width: 280px;
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.menu-card h3 {
+    margin-top: 15px;
+}
+
+.menu-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #4b2c20;
+}
+
+/* ABOUT */
+.about {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+/* CONTACT */
+.contact {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    background: #4b2c20;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background: #4b2c20;
+    text-align: center;
+    color: #fff;
+    padding: 18px;
+}
